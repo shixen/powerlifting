@@ -4,8 +4,10 @@ main{
     min-height: 100vh;
 }
 
-header img{
-    width: 80%;
+.responsive{
+    width: 100%;
+    height: auto;
+    max-height: 700px;
 }
 header div {
    text-align: center;
@@ -38,8 +40,7 @@ nav ul{
     color: inherit;
 }
 nav{
-position: absolute;
-  width: 100%;
+   width: 100%;
   top: 180px;
   left: 0; 
   
@@ -53,14 +54,15 @@ position: absolute;
     
 }
 
-div section{
+/*div section{
     display :flex;
     
-}
+}*/
 
 #exercises{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 section div{
     width: 100%;
@@ -69,20 +71,19 @@ section div{
     padding: 4px;
     margin: 2px;
 }
-div p{
+/*div p{
     display: flex;  
     flex-direction: column; 
     width: 100%;
 }
+*/
 
 div h2{
     border-bottom: 2px solid #3a3a3a;
 }
 
 
-footer{
-    position: fixed;
-}
+
 
 #social-networks{
     text-align: center;
@@ -90,27 +91,6 @@ footer{
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
-
-@media screen and (min-width: 768px){
-    nav{
-        display:block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-
-    }
-}
-@media screen and (min-width: 1200px){
-    nav{
-        position: absolute;
-          width: 100%;
-          top: 180px;
-          left: 0; 
-          background-color: #ffffff;
-        }
-
 }
 
 
