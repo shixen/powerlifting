@@ -3,11 +3,16 @@
 main{
     min-height: 100vh;
 }
-
+/* images*/
 .responsive{
     width: 100%;
     height: auto;
     max-height: 700px;
+}
+.myself{
+    max-width: 400px;
+    max-height: 600px;
+    border-radius: 50%;
 }
 header div {
    text-align: center;
