@@ -1,0 +1,116 @@
+
+
+main{
+    min-height: 100vh;
+}
+
+header img{
+    width: 80%;
+}
+header div {
+   text-align: center;
+    font-size: 280%;
+
+}
+#menu{
+    display: flex;
+    font-size:110%;
+    float: right;
+    
+    
+    
+}
+#menu > li{
+    padding-left:1rem;
+    margin:1rem;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-evenly;
+    right: 50px;
+    
+   
+}
+nav ul{
+    margin-right:15%;;
+}
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+position: absolute;
+  width: 100%;
+  top: 180px;
+  left: 0; 
+  
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.powerlifting{
+  text-align: center;
+    
+}
+
+div section{
+    display :flex;
+    
+}
+
+#exercises{
+    display: flex;
+    justify-content: space-around;
+}
+section div{
+    width: 100%;
+    border-style: solid;
+    height: 100%;
+    padding: 4px;
+    margin: 2px;
+}
+div p{
+    display: flex;  
+    flex-direction: column; 
+    width: 100%;
+}
+
+div h2{
+    border-bottom: 2px solid #3a3a3a;
+}
+
+
+footer{
+    position: fixed;
+}
+
+#social-networks{
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px){
+    nav{
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+}
+@media screen and (min-width: 1200px){
+    nav{
+        position: absolute;
+          width: 100%;
+          top: 180px;
+          left: 0; 
+          background-color: #ffffff;
+        }
+
+}
+
+
