@@ -13,6 +13,22 @@ main{
     max-width: 400px;
     max-height: 600px;
     border-radius: 50%;
+    position: absolute;
+    top: 20%;
+}
+.gym{
+    height: 600px;
+    width: 600px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#aboutme h1{
+    position: absolute;
+    top:10%;
+    left: 15%;
+    
 }
 header div {
    text-align: center;
