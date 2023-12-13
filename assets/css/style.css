@@ -5,9 +5,17 @@ main{
 }
 /* images*/
 .responsive{
-    width: 100%;
-    height: auto;
-    max-height: 700px;
+   width: 100%;
+   height: auto;
+
+}
+
+body{
+    background-image: url(../images/AdobeStock_183953916-1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .myself{
     max-width: 400px;
@@ -23,11 +31,10 @@ main{
     bottom: 0;
     right: 0;
 }
+h1{
+    color: white;
+}
 
-#aboutme h1{
-    position: absolute;
-    top:10%;
-    left: 15%;
     
 }
 header div {
@@ -36,9 +43,11 @@ header div {
 
 }
 #menu{
+    width: 100%;
     display: flex;
     font-size:110%;
-    float: right;
+    justify-content: center;
+    align-items: center;
     
     
     
@@ -50,12 +59,11 @@ header div {
     list-style-type: none;
     justify-content: space-evenly;
     right: 50px;
+    font-size: 150%;
     
    
 }
-nav ul{
-    margin-right:15%;;
-}
+
 #menu a{
     text-decoration: none;
     color: inherit;
@@ -64,6 +72,7 @@ nav{
    width: 100%;
   top: 180px;
   left: 0; 
+  color: white;
   
 }
 .active{
@@ -72,18 +81,19 @@ nav{
 
 .powerlifting{
   text-align: center;
+  color: white;
     
 }
 
-/*div section{
-    display :flex;
-    
-}*/
-
 #exercises{
+    color: white;
+}
+
+#exercises body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 section div{
     width: 100%;
@@ -92,15 +102,18 @@ section div{
     padding: 4px;
     margin: 2px;
 }
-/*div p{
+section{
+    margin-top: 10%;
+}
+
+div p{
     display: flex;  
     flex-direction: column; 
     width: 100%;
 }
-*/
 
-div h2{
-    border-bottom: 2px solid #3a3a3a;
+p{
+    font-size: 150%;
 }
 
 
@@ -114,4 +127,17 @@ div h2{
     list-style-type: none;
 }
 
+/* about me section*/
 
+
+#aboutme h1{
+    position: absolute;
+    top:10%;
+    left: 15%;
+}
+
+.myself{
+    position:absolute;
+    left: 15%;
+}
+    
