@@ -83,10 +83,10 @@ nav{
   color: white;
   margin-top: 150px;
 }
-#nav-list{
-    border-style: solid;
-    width: 40%;
+#nav-list {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .active{
     border-bottom: 1px solid #fff;
