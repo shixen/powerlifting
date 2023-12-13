@@ -38,6 +38,7 @@ h1{
 .workout{
     color: #fff;
     text-align: center;
+    margin-top: 100px;
 }
     
 }
@@ -45,6 +46,14 @@ header div {
    text-align: center;
     font-size: 280%;
 
+}
+.intro{
+    border-style: solid;
+}
+#headline{
+    text-align: center;
+    color: #fafafa;
+    font-size: 280%;
 }
 #menu{
    
@@ -69,11 +78,15 @@ header div {
     color: inherit;
 }
 nav{
-   width: 100%;
   top: 180px;
   left: 0; 
   color: white;
-  
+  margin-top: 150px;
+}
+#nav-list{
+    border-style: solid;
+    width: 40%;
+    display: flex;
 }
 .active{
     border-bottom: 1px solid #fff;
@@ -90,6 +103,8 @@ nav{
 
 #exercises{
     color: white;
+    max-width: 70%;
+    
 }
 
 #exercises body{
@@ -104,6 +119,7 @@ section div{
     height: 100%;
     padding: 4px;
     margin: 2px;
+    background-color: rgba(60, 60, 60, 0.6);
 }
 section{
     margin-top: 10%;
@@ -129,6 +145,10 @@ p{
     justify-content: space-evenly;
     list-style-type: none;
 }
+#social-networks i{
+    font-size: 160%;
+    color: #fff;
+}
 
 /* about me section*/
 
@@ -151,7 +171,65 @@ text-align: center;
     max-width: 50%;
     max-height: 50%;
 }
+
+
+/* book a session form*/
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height:30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.input{
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height:30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    
+}
 footer{
   color: #fff;
+ background-color: rgba(60, 60, 60, 0.6);
 }
+footer li{
+    font-size: 150%;
+}
+
+
     
