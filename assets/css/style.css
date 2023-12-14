@@ -94,7 +94,6 @@ header div {
 }
 nav{
   color: white;
-  margin-top: 150px;
   display: flex;
   justify-content: center;
 }
@@ -239,11 +238,13 @@ footer{
 footer li{
     font-size: 150%;
 }
+
 @media screen and (max-width: 768px){
     nav{
         width:fit-content;
     }
 }
+/*
 @media screen and (max-width: 576px){
    #info{
     width:500px ;
@@ -264,6 +265,7 @@ footer li{
 @media screen and (max-width: 1200px){
     
 }
+*/
 
 
     
