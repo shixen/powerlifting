@@ -39,16 +39,29 @@ h1{
     color: #fff;
     text-align: center;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.position{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#exercises div{
+    height: fit-content;
 }
     
-}
 header div {
    text-align: center;
     font-size: 280%;
 
 }
 .intro{
+    max-width: 600px;
+}
+.intro p{
     border-style: solid;
+    background-color:rgba(0, 0, 0, .6);
 }
 #headline{
     text-align: center;
@@ -96,9 +109,6 @@ nav{
   text-align: center;
   color: white;
     
-}
-.workout{
-    background-color:rgba(0, 0, 0, .6);
 }
 
 #exercises{
