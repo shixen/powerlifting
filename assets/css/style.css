@@ -53,7 +53,7 @@ h1{
     
 header div {
    text-align: center;
-    font-size: 280%;
+    font-size: 150%;
 
 }
 .intro{
@@ -71,7 +71,7 @@ header div {
 #menu{
    
     display: flex;
-    font-size:110%;
+  font-size: 110%;
     justify-content:center; 
 }
 #menu > li{
@@ -91,10 +91,10 @@ header div {
     color: inherit;
 }
 nav{
-  top: 180px;
-  left: 0; 
   color: white;
   margin-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 #nav-list {
     display: flex;
@@ -241,6 +241,10 @@ footer{
 footer li{
     font-size: 150%;
 }
-
+@media screen and (max-width: 768px){
+    nav{
+        width: 100;
+    }
+}
 
     
