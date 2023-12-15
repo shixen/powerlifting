@@ -3,6 +3,7 @@
 body{
     margin: 0;
 }
+/* main 100vh to push down footer */
 main{
     min-height: 100vh;
 }
@@ -12,7 +13,7 @@ main{
    height: auto;
 
 }
-
+/* background image to body*/
 body{
     background-image: url(../images/AdobeStock_183953916-1.jpeg);
     background-repeat: no-repeat;
@@ -22,6 +23,7 @@ body{
     width: 100%;
     height: auto;
 }
+/*image on about me section*/
 .myself{
     max-width: 400px;
     max-height: 600px;
@@ -29,13 +31,7 @@ body{
     position: absolute;
     top: 20%;
 }
-.gym{
-    height: 600px;
-    width: 600px;
-    position:absolute;
-    bottom: 0;
-    right: 0;
-}
+
 h1{
     color: white;
 }
@@ -159,7 +155,13 @@ section h1{
     font-size: 200%;
     text-align: center;
 }
-
+.aboutme{
+    display: flex;
+    justify-content: center;
+}
+.aboutme div{
+    text-align: center;
+}
 .container{
 text-align: center;
 }
@@ -167,8 +169,9 @@ text-align: center;
     color: #fff;
     background-color: rgba(0, 0, 0, .6);
     font-family:'oswald' , sans-serif;
+    max-width: 70%;
 }
-
+/* to make picture oval*/
 #ego{
     border-radius: 50%;
     max-width: 700px;
