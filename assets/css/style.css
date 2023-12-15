@@ -7,6 +7,10 @@ body{
 main{
     min-height: 100vh;
 }
+/* make navbar darker*/
+nav{
+    background-color: rgba(60, 60, 60, 0.8);
+}
 /* images*/
 .responsive{
    width: 100%;
@@ -31,7 +35,9 @@ body{
     position: absolute;
     top: 20%;
 }
-
+header{
+    margin-bottom: 100px;
+}
 h1{
     color: white;
 }
@@ -50,6 +56,7 @@ h1{
 #exercises div{
     height: fit-content;
 }
+
     
 header div {
    text-align: center;
@@ -59,13 +66,25 @@ header div {
 }
 .intro p{
     border-style: solid;
-    background-color:rgba(0, 0, 0, .6);
+    background-color:rgba(0, 0, 0, .8);
 }
+
 #headline{
     text-align: center;
     color: #fafafa;
     font-size: 200%;
+    background-color:rgba(0, 0, 0, .8);
+    border-style: solid;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    
 }
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
 #menu{
     display: flex;
     justify-content:center; 
@@ -94,9 +113,7 @@ nav{
   justify-content: center;
   width: 100%;
 }
-.active{
-    border-bottom: 1px solid #fff;
-}
+
 
 .powerlifting{
   text-align: center;
@@ -121,13 +138,7 @@ section div{
     height: 100%;
     padding: 4px;
     margin: 2px;
-    background-color: rgba(60, 60, 60, 0.6);
-}
-
-div p{
-    display: flex;  
-    flex-direction: column; 
-    width: 100%;
+    background-color: rgba(60, 60, 60, 0.8);
 }
 
 p{
