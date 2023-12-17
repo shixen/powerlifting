@@ -114,6 +114,7 @@ section div{
 /*make text more easy to read*/
 p{
     font-size: 150%;
+    font-family:'oswald' , sans-serif;
 }
 
 
